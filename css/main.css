@@ -42,12 +42,16 @@ img { max-width: 100%; }
     padding-left: 1em;
     padding-right: 1em;
   }
+  img { margin: 0 auto; display: block;}
 }
 
-small,
-.small {
-  font-size: 85%;
+@media (min-width: 600px) {
+  .float-right { float: right; }
+  .float-left { float: left; }
+  img { margin: 0.5em; }
 }
+
+
 mark,
 .mark {
   padding: .2em;
