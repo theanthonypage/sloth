@@ -1,5 +1,7 @@
 table {
   background-color: transparent;
+  font-family: 'Inconsolata', monospace;
+
 }
 caption {
   padding-top: 8px;
